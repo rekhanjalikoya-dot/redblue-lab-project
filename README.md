@@ -38,18 +38,6 @@ Both VMs are connected on an isolated internal network (`redblue-lab`) so the la
 2. **Fail2Ban** – Configured to monitor logs and automatically block IPs showing repeated malicious behavior
 3. **Log Analysis** – Reviewed Apache/UFW logs to correlate attack timestamps with Red Team activity
 
-#  Screenshots
-
-> Add your screenshots here (Nmap scan output, DVWA SQLi/XSS success, UFW logs, Fail2Ban ban events)
-
-```
-screenshots/
-├── nmap_scan.png
-├── sqli_success.png
-├── xss_success.png
-├── ufw_logs.png
-└── fail2ban_ban.png
-```
 
 #  Key Learnings
 
