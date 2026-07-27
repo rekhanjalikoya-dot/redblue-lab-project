@@ -8,11 +8,12 @@ To simulate a controlled cyber attack on a vulnerable web application (DVWA) and
 
 # Lab Architecture
 
-| Component         | Role              | OS / Tool                                   |
-|-------------------|-------------------|---------------------------- ----------------|
-| Attacker Machine  | Red Team          | Kali Linux                                  |
-| Target Machine    | Blue Team         | Ubuntu Server + DVWA                        |
+| Component        | Role              | OS / Tool                  |
+|-------------------|-------------------|-----------------------------|
+| Attacker Machine  | Red Team          | Kali Linux                 |
+| Target Machine    | Blue Team         | Ubuntu Server + DVWA        |
 | Network           | Isolated Network  | VirtualBox Internal Network (`redblue-lab`) |
+
 
 Both VMs are connected on an isolated internal network (`redblue-lab`) so the lab is self-contained and does not expose the attack traffic to the host machine or the internet.
 
